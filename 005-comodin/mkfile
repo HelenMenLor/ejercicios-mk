@@ -1,0 +1,7 @@
+'results/(.+)@(.+)\.fastq\.extras':R:  'data\/\2\.fastq'       'seq\/\1\.txt'
+	mkdir -p `dirname $target`
+	bin/get_seq $prereq > $target
+
+results/P_49627@C2.fastq:	results/P_49627@C2.fastq.extras
+	mkdir -p `dirname $target`
+	bin/clean_seq $prereq > $target

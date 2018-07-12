@@ -1,0 +1,5 @@
+results/P_49627@A1.fastq.extras:	seq/P_49627.txt data/A1.fastq
+	# Aquí rellenar la receta
+
+results/P_49627@A1.fastq:	results/P_49627@A1.fastq.extras
+	# Aquí rellenar la receta

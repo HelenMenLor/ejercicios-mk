@@ -1,0 +1,1 @@
+Consultar detalles en https://github.com/INMEGEN/taller.supercomputo/blob/master/presentaciones/mk.md

@@ -1,0 +1,6 @@
+#!/bin/bash
+
+SECUENCIA="$1"
+ARCHIVO="$2"
+
+grep -B1 -A2 -w -f "$SECUENCIA" "$ARCHIVO"

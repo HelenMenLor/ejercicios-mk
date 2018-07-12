@@ -1,0 +1,5 @@
+#!/bin/bash
+
+ARCHIVO="$1"
+
+sed '/--/d' "${ARCHIVO:-}"

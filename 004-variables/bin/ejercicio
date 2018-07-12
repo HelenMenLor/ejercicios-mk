@@ -1,7 +1,0 @@
-#!/bin/sh
-mkdir results
-chmod 770 results
-chmod 770 bin/get_seq
-chmod 770 bin/clean_seq
-chmod 440 data/A1.fastq
-rm bin/ejercicio
